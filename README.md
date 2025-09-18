@@ -63,11 +63,11 @@ Key steps performed:
 
 You can use the model’s prediction function as follows:
 
-price_predict(location, sqft, bath, BHK)
+`price_predict(location, sqft, bath, BHK)`
 
 Example:
 
-price_predict('1st Phase JP Nagar', 1000, 2, 2)
+`price_predict('1st Phase JP Nagar', 1000, 2, 2)`
 
 This returns the predicted house price for a 1000 sqft home, 2 bathrooms, 2 BHK in 1st Phase JP Nagar (in lakhs, as per the data’s units).
 
@@ -78,5 +78,5 @@ This returns the predicted house price for a 1000 sqft home, 2 bathrooms, 2 BH
 - Build an interactive user interface (web app) for price prediction
 
 ## Acknowledgments
-📊 Dataset: [Bengaluru House Data by Mohit Pratap on Kaggle](https://www.kaggle.com/datasets/mohitpratap166/bengaluru-house-data)
+📊 Dataset: [Bengaluru House Data by Mohit Pratap on Kaggle](https://www.kaggle.com/datasets/mohitpratap166/bengaluru-house-data) 
 🙏 Thank you to Kaggle for providing the data and platform.
